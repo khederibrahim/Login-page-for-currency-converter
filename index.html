@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project1</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+<body>
+    
+    <div id="dh1">
+        <h1 id="h1">Welcome to the login page</h1>
+    </div>
+    
+    <form action="" id="form1">
+    
+    <div>
+        
+        <div id="userName">
+            <label for="uName">User Name:</label>
+            <input type="text" name="uName" id="uName" placeholder="Name" required>
+            <p id="uP">Write a valid User Name.</p>
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="text" name="password" id="password" placeholder="Password" required>
+        </div>
+
+        <!-- <div>
+            <label for="verfication_code">Verification Code</label>
+            <p id="p">Rewrite this String:</p>
+            <input type="text" name="verification_code" id="verification_code" placeholder="Verification code">
+        </div> -->
+
+        <div class="g-recaptcha" data-sitekey="6LeDmfsjAAAAAFNC4ufJ-iNq7Jw02RDrNhlM7CIq"></div>
+        <input type="submit" value="Submit" name="submit" id="submit">
+        
+    </div>
+    </form>
+    
+    <div>
+        <div class="login" type="button"><a href="main.html" id="angular">Login</a></div>
+        
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
